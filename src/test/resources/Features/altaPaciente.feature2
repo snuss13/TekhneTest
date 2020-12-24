@@ -1,0 +1,9 @@
+# language: es
+Característica: Alta pacientes
+
+  Escenario: Carga rapida de nuevo paciente
+    Dado un  usuario correctamente logueado
+    Y que selecciono centro medico 24
+    Y va a la pantalla de carga rapida de paciente
+    Cuando completo los datos del formulario
+    Entonces se debe generar un nuevo numero de Historia Clinica

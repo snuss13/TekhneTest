@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.314 s <<< FAILURE! - in Runner.TestRunner
+Login invalido de administrado #1(Verificar la funcionalidad de login)  Time elapsed: 9.575 s  <<< FAILURE!
+org.junit.ComparisonFailure: Login de usuario incorrecto ha fallado expected:<Usuario/C[ontraseña] incorrectos !> but was:<Usuario/C[lave] incorrectos !>
+

@@ -1,0 +1,15 @@
+Objects\Domicilio.class
+Objects\Paciente.class
+Runner\TestRunner.class
+StepDefinition\LoginSteps.class
+Objects\Documento.class
+Pages\PacientesPage.class
+Pages\CentersPage.class
+Objects\CorreoElectronico.class
+Objects\SeleniumHelper.class
+Objects\Telefono.class
+Pages\Menu.class
+Pages\LoginPage.class
+Pages\PacientesListaPage.class
+StepDefinition\AltaPacienteSteps.class
+Objects\Cobertura.class

@@ -1,0 +1,223 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-23T23:57:06.051Z",
+        "line": 4,
+        "name": "Login válido de administrador",
+        "description": "",
+        "id": "verificar-la-funcionalidad-de-login;login-válido-de-administrador",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8451849700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que el usuario esta en la pagina de login",
+            "match": {
+              "location": "StepDefinition.LoginSteps.que_el_usuario_esta_en_la_pagina_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1966315400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "ingresa el usuario y la clave",
+            "match": {
+              "location": "StepDefinition.LoginSteps.ingresa_el_usuario_y_la_clave()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 88763700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "presiona Enter",
+            "match": {
+              "location": "StepDefinition.LoginSteps.presiona_enter()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1097076200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sera redirigido a la pagina de seleccion de entidad",
+            "match": {
+              "location": "StepDefinition.LoginSteps.sera_redirigido_a_la_pagina_principal()"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-23T23:57:17.818Z",
+        "line": 18,
+        "name": "Login invalido de administrado",
+        "description": "",
+        "id": "verificar-la-funcionalidad-de-login;login-invalido-de-administrado;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6977149100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el usuario esta en la pagina de login",
+            "match": {
+              "location": "StepDefinition.LoginSteps.que_el_usuario_esta_en_la_pagina_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1869996500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ingresa un \"admin\" invalido y una \"admion123\" erronea",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admion123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.ingresa_un_invalido_y_una_erronea(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 140625700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "presiona Ingresar",
+            "match": {
+              "location": "StepDefinition.LoginSteps.presiona_ingresar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Login de usuario incorrecto ha fallado expected:\u003cUsuario/C[ontraseña] incorrectos !\u003e but was:\u003cUsuario/C[lave] incorrectos !\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat StepDefinition.LoginSteps.recibira_un_error(LoginSteps.java:62)\r\n\tat ✽.recibira un error \"Usuario/Contraseña incorrectos !\"(file:///C:/Users/Sebastian/Applications/Eclipse/TekhneFunctionalTesting/src/test/resources/Features/login.feature:14)\r\n",
+              "duration": 674194900,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "recibira un error \"Usuario/Contraseña incorrectos !\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Usuario/Contraseña incorrectos !\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.recibira_un_error(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-23T23:57:27.505Z",
+        "line": 19,
+        "name": "Login invalido de administrado",
+        "description": "",
+        "id": "verificar-la-funcionalidad-de-login;login-invalido-de-administrado;;3",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7018295500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que el usuario esta en la pagina de login",
+            "match": {
+              "location": "StepDefinition.LoginSteps.que_el_usuario_esta_en_la_pagina_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1953111800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ingresa un \"armin\" invalido y una \"admin\" erronea",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.ingresa_un_invalido_y_una_erronea(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 189493500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "presiona Ingresar",
+            "match": {
+              "location": "StepDefinition.LoginSteps.presiona_ingresar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 878120200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "recibira un error \"Usuario/Contraseña incorrectos !\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Usuario/Contraseña incorrectos !\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.LoginSteps.recibira_un_error(java.lang.String)"
+            },
+            "keyword": "Entonces "
+          }
+        ]
+      }
+    ],
+    "name": "Verificar la funcionalidad de login",
+    "description": "",
+    "id": "verificar-la-funcionalidad-de-login",
+    "keyword": "Característica",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
